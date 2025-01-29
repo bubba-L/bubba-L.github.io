@@ -1,24 +1,334 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Github tutorial</title>
-   </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Larkin</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
 
-   <body>
-      
-      <p> My name is Ben and I went to Upper Merion Area Highschool. I like to play video games, hangout with friends, watch movies/tv/anime. I also like to swim and go to the gym, especially with friends. </p>
-       
-       
-       <img src=""Fav Food.png"" width="300" height="200">
-       
-       <p></p>
-       <a href="https://www.rit.edu/computing/department-software-engineering">Visit The SE Website</a>
-       
-       <p>Things I would like to learn:</p>
-       <p>     - how to code in different languages </p>
-        <p>     - what SE look like in the real world</p>
-       
-       
-       
-   </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <header>Ben Larkin</header>
+
+    <div class="main-content">
+        <div class="textbox">
+            <h2>About Me</h2>
+            <p>Hello! My name is Gina Piccirilli and I am a game design and development major at RIT. 
+                I have experience working in C#, Java and JavaFx, HTML and CSS, as well as various 
+                design and programming softwares.</p>
+
+                <p>Although I only started coding a few years ago, I am not suprised that I ended up in 
+                this field as I have always loved being creative and solving problems, even if there 
+                wasn't actually a problem to begin with. As a child I would always have an idea for a 
+                new invention or art project, such as making a robot out of legos, painting on anything 
+                I could, or even just taping batteries together and using a bent paper clip to turn on a 
+                light bulb. As I grew up I would constantly find new ways to create, from robotics and 
+                CAD to woodworking or jewelry making. </p>
+                
+                <p>When I first took a coding class, I instantly became passionate about programming, eager 
+                to learn more so that I could add to and advance my projects. I am not one to be afraid 
+                to ask for help, so I was constantly asking my professor for extra resources or when I 
+                needed help debugging. Learning about all of the oppertunities this field could bring me 
+                has inspired me to take this route, including learning about companies that use game development 
+                skills to create technologies that help improve people's lives. As I progress in this field, 
+                I aspire to gain as much experience as I can, putting what I learn - both in programming 
+                and design - together into something I am proud of. I have many goals, small and large, 
+                that I work towards every day.
+                </p>
+        </div>
+
+        <div class="sidebar">
+            
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p>Email: <a href="mailto:ginapic6@gmail.com">ginapic6@gmail.com</a><br>
+                    <div id="tab"><a href="mailto:gnp3602@rit.edu">gnp3602@rit.edu</a></div></p>
+                <p>Phone: <a href="tel:(585) 773-4821">(585) 773-4821</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/gina-piccirilli/">https://www.linkedin.com/in/gina-piccirilli/</a></p>
+                <p>GitHub: <a href="https://github.com/GineBean">https://github.com/GineBean</a></p>
+                <p>Resume: <a href="Piccirilli_Gina_Resume.pdf" download>
+                    <img src="Piccirilli_Gina_Resume.pdf" alt="Download PDF">
+                </a></p>
+            </div>
+
+            <div class="profile-pic">
+                <!-- Add your image here -->
+                <img src="images/self.JPG" alt="Profile Picture">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Technical Skills: MonoGame, Unity, OnShape CAD, Maya, Microsoft Visual Studio/VS Code, IntelliJ, Krita, Procreate, Microsoft and Google Products
+            </li>
+            <li>Programming Languages:  C#, Java, JavaFx, JavaScript, HTML, CSS</li>
+            <li>Operating Systems: Windows</li>
+        </ul>
+    </div>
+</div>
+<div class="projects"></div>
+    <h1>Projects</h1>
+
+    <!-- Project 1 -->
+    <div class="project">
+        <div class="description">
+            <h2>Minerva's Marvelous Mixturette </h2>
+            <h3>January - May 2024</h3>
+            <p>Minerva's Marvelous Mixturette is a keyboard-controlled cooking game. 
+                You play as Minerva, a witch running a small potion business out of a carriage. 
+                The goal is to serve customers their orders as quickly and accurately as possible. </p>
+                <p>This game was made in MonoGame by Witch Works - a group of four students including 
+                    myself - for the course Game Development and Algorithm Problem Solving II, and was worked on 
+                    throughout the semester.</p>
+                <p>My main focuses included working on the file I/O, loading in level information and 
+                    saving/showing the highest scores for each level. I also worked specifically on the 
+                    UI of the score and level select screens, as well as writing, balancing, and playtesting 
+                    the levels. The whole group contributed to planning, documentation, code oragnization, 
+                    and basic functions of gameplay.</p>
+                
+                <a href="Minerva's Marvelous Mixturette Files.zip" download>
+                    <img src="Minerva's Marvelous Mixturette Files.zip" alt="Download Game Files">
+                </a>
+                <br>
+                <a href="GDAPS2 WitchWorks Documentation.docx" download>
+                    <img src="GDAPS2 WitchWorks Documentation.docx" alt="Download Documentation">
+                </a>
+        </div>
+        <div class="slideshow-container" id="slideshow1">
+            <div class="slide">
+                <img src="images/minerva/title.png"alt="Title Screen">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/diagram.png" alt="UML Diagram">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/FSM.png" alt="FSM Diagram">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/template.png" alt="Level File Template">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/level.jpg" alt="Level Example">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/levelselect.jpg" alt="Level Select Screen">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/scores.jpg" alt="Score Screen">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/level1.jpg" alt="Level One">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/tutorial.JPG" alt="Tutorial">
+            </div>            
+            <div class="slide">
+                <img src="images/minerva/order.png" alt="Order Screen">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/mix.png" alt="Mix Screen">
+            </div>
+            <div class="slide">
+                <img src="images/minerva/brew.png" alt="Brewing Screen">
+            </div>       
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+        <div class="description">
+            <h2>Rose from the Dead</h2>
+            <h3>January - May 2024</h3>
+            <p>Rose from the Dead is a 2D platformer game whose story features 
+                Carrik - the playable character - whose village depends on flowers that give
+                holder different abilities. These flowers are dying and her village is defenseless
+                without them, so Carrik is determined to find out what is causing them to die.</p>
+                <p>This project was made throughout a semester for the course 2D Animation and Asset Production.
+                    The game was made using Unity's 2D platformer template, with all of the art, 
+                    assets, and animations made by me, along with a title cutscene animation.
+                    For this project I used a combination of Procreate, Adobe PhotoShop and AfterEffects, Krita,
+                    Unity, and Davinchi Resolve.</p>
+                    <a href="Rose from the Dead Unity Files.zip" download>
+                        <img src="Rose from the Dead Unity Files.zip" alt="Download Unity Build Files">
+                    </a>
+        </div>
+        <div class="slideshow-container" id="slideshow2">
+            <div class="slide">
+                <video width= 100% height= 100% controls>
+                    <source src="Rose from the Dead GamePlay.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <img src="images/rose/conceptart.jpg" alt="Concept Art">
+            </div>
+            <div class="slide">
+                <img src="images/rose/idlegif.gif" alt="Idle Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/idlespritesheet.png" alt="Idle Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/foxidlegif.gif" alt="Enemy Idle Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/foxidlespritesheet.jpg" alt="Enemy Idle Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/rungif.gif" alt="Run Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/runspritesheet.jpg" alt="Run Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/jumpgif.gif" alt="Jump Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/landgif.gif" alt="Land Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/jumplandspritesheet.jpg" alt="Jump/Land Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/deathgif.gif" alt="Death Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/deathspritesheet.jpg" alt="Death Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/foxrungif.gif" alt="Enemy Run Animation">
+            </div>
+            <div class="slide">
+                <img src="images/rose/foxrunspritesheet.jpg" alt="Enemy Run Sprite Sheet">
+            </div>
+            <div class="slide">
+                <img src="images/rose/environmentassets.jpg" alt="Environment Assets">
+            </div>
+            <div class="slide">
+                <img src="images/rose/backgroundseparate.jpg" alt="Background Elements">
+            </div>
+            <div class="slide">
+                <img src="images/rose/background.jpg" alt="Background">
+            </div>
+            <div class="slide">
+                <img src="images/rose/animationconcept.jpg" alt="Animation Concept">
+            </div>
+            <div class="slide">
+                <img src="images/rose/cutsceneconcept.jpg" alt="Cutscene Concept">
+            </div>
+            <div class="slide">
+                <img src="images/rose/enemyconcept.jpg" alt="Enemy Concept">
+            </div>
+            <div class="slide">
+                <video width= 100% height= 100% controls>
+                    <source src="images/rose/cutscene.mp4" type="video/mp4">
+                </video>
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+        <div class="description">
+            <h2>Fruit Ninja Remake </h2>
+            <h3>September - October 2024</h3>
+            <p>This game is a replication of the popular game “Fruit Ninja”, with different food items as the 
+                fruit and an angry-looking fish as the bombs. The player has three lives and gains points by 
+                cutting the food and avoiding the fish. When the player holds the left mouse button and swipes 
+                across the food or fish being launched across the screen, that game object is cut and disappears, 
+                affecting the player’s points and lives according to what object was cut (or missed).
+            </p>
+                <p>Developed a recreation of the game Fruit Ninja in Unity, using Unity’s built in physics, input system, and
+                    components, as well as C# scripts that control object spawning, launching, destroying, mouse tracking, and 
+                    point system.</p>
+                <p>The goal of the game is to try and cut the food items as they fly across the screen but avoid 
+                    hitting the fish. The items can be cut by holding down the left mouse button and swiping over 
+                    the game object. Cutting a food item gains the player one point, and missing one takes away three 
+                    points. The player has three lives, and they lose a life if they cut a fish or if their points 
+                    hit zero. Once the player runs out of lives, a game over screen pops up and the food stops launching. 
+                    The player can then press the left mouse button to restart the game.</p>
+                <p>The food and fish are launched across the screen from a randomly chosen spawn point (out of four possible points), 
+                    towards a random target (of three choices), at a random frequency based on how long the game has ran, and 
+                    with a random sprite and force. The sprite determines the effects that the game object has on the player's points 
+                    and lives, and the range of possible forces depends on the distance the object has to travel. The randomization
+                    increases the difficulty of the game and allows for the game to become more difficult over time.</p>
+                <p>Collision detection is used to track points, lives, and when to destroy game objects, and the player can only cut
+                    objects when swiping with the left mouse button pressed, as the collision component is disabled otherwise. The 
+                    cursor that follows the mouse, with a sword sprite, collides with the game objects and triggers the points/lives 
+                    to change, as well as destroying the object. A platform beneath the spawning platform collides with objects that 
+                    were not cut and have fallen, and destroys them as well as deducting the points for a missed food item.</p>
+                
+                <a href="GINA_PICCIRILLI - Project 2 README.pdf" download>
+                    <img src="GINA_PICCIRILLI - Project 2 README.pdf" alt="Download README">
+                </a>
+                <br>
+                <a href="https://igme-202-2241.github.io/202-work-GineBean/Project_02/">WebGL Build Link - CLick to play</a>
+        </div>
+        <div class="slideshow-container" id="slideshow3">
+            <div class="slide">
+                <img src="images/fruit/editor.jpg"alt="Unity Editor">
+            </div>
+            <div class="slide">
+                <img src="images/fruit/blank.jpg" alt="UI">
+            </div>
+            <div class="slide">
+                <img src="images/fruit/midgame.jpg" alt="Mid-Game">
+            </div>
+            <div class="slide">
+                <img src="images/fruit/gameOver.jpg" alt="Game Over">
+            </div>     
+            <div class="slide">
+                <img src="images/fruit/spawner.jpg" alt="Spawner Game Object">
+            </div> 
+            <div class="slide">
+                <img src="images/fruit/sword.jpg" alt="Cursor Game Object">
+            </div> 
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = [1, 1, 1];  // Initialize an array to track slides for each slideshow
+        let slideId = ["slideshow1", "slideshow2", "slideshow3"];  // Array of slideshow IDs
+
+        showSlides(1, 0);  // Initialize the first slideshow
+        showSlides(1, 1);  // Initialize the second slideshow
+        showSlides(1, 2);
+
+        // Function to increment or decrement slide
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no - 1] += n, no - 1);
+        }
+
+        // Function to show the current slide
+        function showSlides(n, no) {
+            let i;
+            let slides = document.querySelectorAll(`#${slideId[no]} .slide`);
+            if (n > slides.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex[no] - 1].style.display = "block";
+        }
+    </script>
+
+</body>
 </html>

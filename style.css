@@ -1,14 +1,16 @@
-.montserrat {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+
+.roboto> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     color: rgb(0, 0, 0);
-    /* font-family: Montserrat;
-    font-weight: 500; */
     margin: 0;
     padding: 20px;
     background-color: #B0C4DE;
@@ -41,8 +43,9 @@ header {
     width: 35%;
 }
 .profile-pic {
-    width: 100%;
-    height: 550px;
+    width: 237.5px;
+    height: 275px;
+    margin-left: 20px;
     margin-top: 20px;
     display: flex;
     justify-content: center;

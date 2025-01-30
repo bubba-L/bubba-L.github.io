@@ -11,7 +11,7 @@
 body {
     font-family: Roboto, sans-serif;
     color: rgb(0, 0, 0);
-    margin: 0;
+    margin: 10px;
     padding: 20px;
     background-color: #B0C4DE;
 }
@@ -85,21 +85,32 @@ header {
 }
 .slideshow-container {
     width: 45%;
-    height: auto;
+    height: 100%;
     position: relative;
     overflow: hidden;
     background-color: #B0C4DE;
     align-self: center;
+    
+    
 }
 .slide {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
+    
 }
 .slide img {
-    width: 100%;
-    height: auto;
+    max-width: 700px;
+    max-height: 500px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    border: 1px solid #000000;
+    
 }
+
 
 #slideshow3 {
     height: 100%;
